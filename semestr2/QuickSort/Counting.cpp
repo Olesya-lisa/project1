@@ -50,7 +50,7 @@ int main()
 {
 	setlocale(LC_ALL, "rus");
 	int n;
-	cout << " Ââåäèòå ðàçìåð ìàññèâà: ";
+	cout << " Введите размер массива: ";
 	cin >> n;
 	int arr[n];
 	for (int i = 0; i < n; i++) 
@@ -58,7 +58,7 @@ int main()
 		cin >> arr[i];
 	}
 	quickSort(arr, 0, n - 1);
-	cout << "Îòñîðòèðîâàííûé ìàññèâ: ";
+	cout << "Отсортированный массив: ";
 	for (int i = 0; i < n; i++) 
 	{
 		cout << arr[i] << "\t";
