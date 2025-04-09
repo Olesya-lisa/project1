@@ -48,6 +48,7 @@ void quickSort(int arr[], int low, int high)
 
 int main()
 {
+	setlocale(LC_ALL, "rus");
 	int n;
 	cout << " Ââåäèòå ðàçìåð ìàññèâà: ";
 	cin >> n;
