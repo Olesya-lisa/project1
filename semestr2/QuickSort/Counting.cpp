@@ -49,15 +49,15 @@ void quickSort(int arr[], int low, int high)
 int main()
 {
 	int n;
-	cout << " Ââåäèòå ðàçìåð ìàññèâà: ";
+	cout << " Ã‚Ã¢Ã¥Ã¤Ã¨Ã²Ã¥ Ã°Ã Ã§Ã¬Ã¥Ã° Ã¬Ã Ã±Ã±Ã¨Ã¢Ã : ";
 	cin >> n;
 	int arr[n];
 	for (int i = 0; i < n; i++) 
 	{
 		cin >> arr[i];
 	}
-	quickSortà(arr, 0, n - 1);
-	cout << "Îòñîðòèðîâàííûé ìàññèâ: ";
+	quickSort(arr, 0, n - 1);
+	cout << "ÃŽÃ²Ã±Ã®Ã°Ã²Ã¨Ã°Ã®Ã¢Ã Ã­Ã­Ã»Ã© Ã¬Ã Ã±Ã±Ã¨Ã¢: ";
 	for (int i = 0; i < n; i++) 
 	{
 		cout << arr[i] << "\t";
