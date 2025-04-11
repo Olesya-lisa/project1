@@ -48,17 +48,18 @@ void quickSort(int arr[], int low, int high)
 
 int main()
 {
+	setlocale(LC_ALL, "rus");
 	int n;
-	cout << " Ââåäèòå ðàçìåð ìàññèâà: ";
+	cout << " Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ€Ð°Ð·Ð¼ÐµÑ€ Ð¼Ð°ÑÑÐ¸Ð²Ð°: ";
 	cin >> n;
 	int arr[n];
 	for (int i = 0; i < n; i++) 
 	{
-		cout << " Ââåäèòå ýëåìåíò: ";
+		cout << " Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ ÑÐ»ÐµÐ¼ÐµÐ½Ñ‚: ";
 		cin >> arr[i];
 	}
 	quickSort(arr, 0, n - 1);
-	cout << "Îòñîðòèðîâàííûé ìàññèâ: ";
+	cout << "ÐžÑ‚ÑÐ¾Ñ€Ñ‚Ð¸Ñ€Ð¾Ð²Ð°Ð½Ð½Ñ‹Ð¹ Ð¼Ð°ÑÑÐ¸Ð²: ";
 	for (int i = 0; i < n; i++) 
 	{
 		cout << arr[i] << "\t";
